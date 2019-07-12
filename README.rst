@@ -10,6 +10,9 @@ Formats docstrings to follow `PEP 257`_.
    :target: https://travis-ci.org/myint/docformatter
    :alt: Build status
 
+Warning
+========
+This fork exists to build a version of docformatter that hasn't been released yet and push it to our PyPi mirror so we don't have to install it from Github. We need this because the unreleased version added `-c` to check if the doc strings are properly formatted.
 
 Features
 ========
