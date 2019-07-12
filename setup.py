@@ -21,7 +21,7 @@ def version():
 
 
 with open('README.rst') as readme:
-    setup(name='docformatter',
+    setup(name='sl-docformatter',
           version=version(),
           description='Formats docstrings to follow PEP 257.',
           long_description=readme.read(),
